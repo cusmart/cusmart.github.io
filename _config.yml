@@ -1,1 +1,5 @@
+title: CUSMART
+description: CUDA String Matching Research Tool
+repository: cusmart/cusmart
+show_downloads: true
 theme: jekyll-theme-minimal
