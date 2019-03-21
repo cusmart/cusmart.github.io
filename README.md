@@ -12,91 +12,71 @@ There are build scripts under "scripts" folder for Linux and Windows platforms. 
 There are around 85 algorithms implemented so far.
 More is getting added as the development continues.
 
-|Name	|	Code	|	Year	|
-|-------|-----------|-----------|
-|Brute Force	|	bf	|		|
-|Deterministic Finite Automaton	|	aut	|		|
-|Morris Pratt	|	mp	|	1970	|
-|Knuth Morris-Pratt	|	kmp	|	1977	|
-|Boyer Moore	|	bm	|	1977	|
-|Horspool	|	hor	|	1980	|
-|Apostolico Giancarlo	|	ag	|	1986	|
-|Karp Rabin	|	kr	|	1987	|
-|Zhu Takaoka	|	zt	|	1987	|
-|Optimal Mismatch	|	om	|	1990	|
-|Maximal Shift	|	ms	|	1990	|
-|Quick Search	|	qs	|	1990	|
-|Apostolico Crochemore	|	ac	|	1991	|
-|Two Way	|	tw	|	1991	|
-|Tuned Boyer Moore	|	tunedbm	|	1991	|
-|Colussi	|	col	|	1991	|
-|Smith	|	smith	|	1991	|
-|Galil Giancarlo	|	gg	|	1992	|
-|Raita	|	raita	|	1992	|
-|String Matching on Ordered Alphabet	|	smoa	|	1992	|
-|Reverse Factor	|	rf	|	1992	|
-|Shift Or	|	so	|	1992	|
-|Shift And	|	sa	|	1992	|
-|Not So Naive	|	nsn	|	1993	|
-|Simon	|	simon	|	1993	|
-|Turbo Boyer Moore	|	tbm	|	1994	|
-|Reverse Colussi	|	rcol	|	1994	|
-|Turbo Reverse Factor	|	trf	|	1994	|
-|Forward DAWG Matching	|	fdm	|	1994	|
-|Backward DAWG Matching	|	bdm	|	1994	|
-|Skip Search	|	skip	|	1998	|
-|Alpha Skip Search	|	askip	|	1998	|
-|KMP Skip Search	|	kmpskip	|	1998	|
-|Backward Nondeterministic DAWG Matching	|	bndml	|	1998	|
-|Berry Ravindran	|	br	|	1999	|
-|Backward Oracle Matching	|	bom	|	1999	|
-|Double Forward DAWG Matching	|	dfdm	|	2000	|
-|Ahmed Kaykobad Chowdhury	|	akc	|	2003	|
-|Fast Search	|	fs	|	2003	|
-|Simplified Backward Nondeterministic DAWG Matching	|	sbndm	|	2003	|
-|Two-Way Nondeterministic DAWG Matching	|	tndm	|	2003	|
-|Backward Nondeterministic DAWG Matching for long patterns	|	lbndm	|	2003	|
-|Shift Vector Matching	|	svm0	|	2003	|
-|Forward Fast Search	|	ffs	|	2004	|
-|Backward Fast Search, Fast Boyer Moore	|	bfs	|	2004	|
-|Tailed Substring	|	ts	|	2004	|
-|SSABS	|	ssabs	|	2004	|
-|Wide Window	|	ww	|	2005	|
-|Linear DAWG Matching	|	ldm	|	2005	|
-|Backward Nondeterministic DAWG Matching with loop unrolling	|	bndmq2	|	2005	|
-|Simplified BNDM with loop unrolling	|	sbndm2	|	2005	|
-|Backward Nondeterministic DAWG Matching with Horspool Shift	|	sbndm-bmh	|	2005	|
-|Horspool with BNDM test	|	bmh-sbndm	|	2005	|
-|Forward Nondeterministic DAWG Matching	|	fndm	|	2005	|
-|Bitparallel Wide Window	|	bww	|	2005	|
-|Fast Average Optimal Shift Or	|	faoso2	|	2005	|
-|Average Optimal Shift Or	|	aoso2	|	2005	|
-|TVSBS	|	tvsbs	|	2006	|
-|Boyer Moore Horspoolusing Probabilities	|	pbmh	|	2006	|
-|Improved Linear DAWG Matching	|	ildm1	|	2006	|
-|Improved Linear DAWG Matching 2	|	ildm2	|	2006	|
-|Franek Jennings Smyth	|	fjs	|	2007	|
-|Wu Manber for Single Pattern Matching	|	hash3	|	2007	|
-|Two Sliding Window	|	tsw	|	2008	|
-|Bit Parallel Length Invariant Matcher	|	blim	|	2008	|
-|Genomic Rapid Algofor String Pattern Matching	|	graspm	|	2009	|
-|SSEF	|	ssef	|	2009	|
-|Extended Backward Oracle Matching	|	ebom	|	2009	|
-|Forward Backward Oracle Matching	|	fbom	|	2009	|
-|Simplified Extended Backward Oracle Matching	|	sebom	|	2009	|
-|Simplified Forward Backward Oracle Matching	|	sfbom	|	2009	|
-|Succint Backward DAWG Matching	|	sbdm	|	2009	|
-|Forward Simplified Backward Nondeterministic DAWG Matching	|	fsbndm	|	2009	|
-|Backward Nondeterministic DAWG Matching with q-grams	|	bndmq2	|	2009	|
-|Simplified Backward Nondeterministic DAWG Matching with q-grams	|	sbndmq2	|	2009	|
-|Shift Or with q-grams	|	ufndmq2	|	2009	|
-|Small Alphabet Bit Parallel	|	sabp	|	2009	|
-|Bit Parallel2 Wide Window	|	bp2ww	|	2010	|
-|Bit Parallel Wide Window2	|	bpww2	|	2010	|
-|Factorized Backward Nondeterministic DAWG Matching	|	kbndm	|	2010	|
-|Factorized Shift And	|	ksa	|	2010	|
-|BNDM with Extended Shift	|	bxs	|	2010	|
-|Forward Simplified BNDM using q-grams and s-forward characters	|	fsbndm20	|	2011	|
-|Crochemore-Perrin algorithm using SSE instructions	|	ssecp	|	2011	|
-|Backward SNR DAWG Matching	|	bsdm	|	2012	|
-|Exact Packed String Matching algorithm	|	epsm	|	2013	|
+| Name                                                        | Code      | Year |
+|-------------------------------------------------------------|-----------|------|
+| Brute Force                                                 | bf        |      |
+| Deterministic Finite Automaton                              | aut       |      |
+| Morris Pratt                                                | mp        | 1970 |
+| Knuth Morris-Pratt                                          | kmp       | 1977 |
+| Boyer Moore                                                 | bm        | 1977 |
+| Horspool                                                    | hor       | 1980 |
+| Apostolico Giancarlo                                        | ag        | 1986 |
+| Karp Rabin                                                  | kr        | 1987 |
+| Zhu Takaoka                                                 | zt        | 1987 |
+| Optimal Mismatch                                            | om        | 1990 |
+| Maximal Shift                                               | ms        | 1990 |
+| Quick Search                                                | qs        | 1990 |
+| Apostolico Crochemore                                       | ac        | 1991 |
+| Two Way                                                     | tw        | 1991 |
+| Tuned Boyer Moore                                           | tunedbm   | 1991 |
+| Colussi                                                     | col       | 1991 |
+| Smith                                                       | smith     | 1991 |
+| Galil Giancarlo                                             | gg        | 1992 |
+| Raita                                                       | raita     | 1992 |
+| String Matching on Ordered Alphabet                         | smoa      | 1992 |
+| Reverse Factor                                              | rf        | 1992 |
+| Shift Or                                                    | so        | 1992 |
+| Shift And                                                   | sa        | 1992 |
+| Not So Naive                                                | nsn       | 1993 |
+| Simon                                                       | simon     | 1993 |
+| Turbo Boyer Moore                                           | tbm       | 1994 |
+| Reverse Colussi                                             | rcol      | 1994 |
+| Turbo Reverse Factor                                        | trf       | 1994 |
+| Forward DAWG Matching                                       | fdm       | 1994 |
+| Backward DAWG Matching                                      | bdm       | 1994 |
+| Skip Search                                                 | skip      | 1998 |
+| KMP Skip Search                                             | kmpskip   | 1998 |
+| Backward Nondeterministic DAWG Matching                     | bndml     | 1998 |
+| Berry Ravindran                                             | br        | 1999 |
+| Backward Oracle Matching                                    | bom       | 1999 |
+| Double Forward DAWG Matching                                | dfdm      | 2000 |
+| Ahmed Kaykobad Chowdhury                                    | akc       | 2003 |
+| Fast Search                                                 | fs        | 2003 |
+| Simplified Backward Nondeterministic DAWG Matching          | sbndm     | 2003 |
+| Two-Way Nondeterministic DAWG Matching                      | tndm      | 2003 |
+| Backward Nondeterministic DAWG Matching for long patterns   | lbndm     | 2003 |
+| Shift Vector Matching                                       | svm0      | 2003 |
+| Forward Fast Search                                         | ffs       | 2004 |
+| Backward Fast Search, Fast Boyer Moore                      | bfs       | 2004 |
+| Tailed Substring                                            | ts        | 2004 |
+| SSABS                                                       | ssabs     | 2004 |
+| Wide Window                                                 | ww        | 2005 |
+| Linear DAWG Matching                                        | ldm       | 2005 |
+| Backward Nondeterministic DAWG Matching with loop unrolling | bndmq2    | 2005 |
+| Simplified BNDM with loop unrolling                         | sbndm2    | 2005 |
+| Backward Nondeterministic DAWG Matching with Horspool Shift | sbndm-bmh | 2005 |
+| Horspool with BNDM test                                     | bmh-sbndm | 2005 |
+| Forward Nondeterministic DAWG Matching                      | fndm      | 2005 |
+| Bitparallel Wide Window                                     | bww       | 2005 |
+| Fast Average Optimal Shift Or                               | faoso2    | 2005 |
+| Average Optimal Shift Or                                    | aoso2     | 2005 |
+| TVSBS                                                       | tvsbs     | 2006 |
+| Boyer Moore Horspoolusing Probabilities                     | pbmh      | 2006 |
+| Improved Linear DAWG Matching                               | ildm1     | 2006 |
+| Improved Linear DAWG Matching 2                             | ildm2     | 2006 |
+| Franek Jennings Smyth                                       | fjs       | 2007 |
+| Two Sliding Window                                          | tsw       | 2008 |
+| Extended Backward Oracle Matching                           | ebom      | 2009 |
+| Forward Backward Oracle Matching                            | fbom      | 2009 |
+| Simplified Extended Backward Oracle Matching                | sebom     | 2009 |
+| Simplified Forward Backward Oracle Matching                 | sfbom     | 2009 |
