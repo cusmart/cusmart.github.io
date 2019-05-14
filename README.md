@@ -10,7 +10,7 @@ There are build scripts under "scripts" folder for Linux and Windows platforms. 
 ## List of Implemented Algorithms
 
 There are around 85 algorithms implemented so far.
-More is getting added as the development continues.
+Many are getting added as the development continues.
 
 | Name                                                        | Code      | Year |
 |-------------------------------------------------------------|-----------|------|
